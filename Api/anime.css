@@ -1,0 +1,54 @@
+.kemicofa-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  justify-content: stretch;
+}
+
+.kemicofa-row > * {
+  flex-basis: 20rem;
+  flex-shrink: 0;
+}
+
+.kemicofa-row .card {
+  display: flex;
+  flex-direction: column;
+}
+
+.kemicofa-row .card > .card-content {
+  flex-grow: 1;
+}
+
+.kemicofa-row .card > .card-image {
+  flex-basis: 25rem;
+  flex-shrink: 0;
+  overflow-y: hidden;
+  background-color: grey;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: rgb(255, 255, 255);
+}
+.nav-wrapper {
+  display: flex;
+  background-color: grey;
+}
+.brand-logo {
+  text-align: center;
+  font-family: "Megrim", cursive;
+  text-shadow: 0 0 5px #0bf4f3, 0 0 10px #0bf4f3, 0 0 20px #0bf4f3,
+    0 0 40px #0bf4f3, 0 0 80px #0bf4f3;
+}
+#search {
+  width: 80vw;
+  height: 10vh;
+  color: rgb(0, 0, 0);
+  font-size: 7vw;
+}
+.col s12 {
+  display: grid;
+  place-items: center;
+}
