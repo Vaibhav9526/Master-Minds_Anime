@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <style>
-  .mySlides {display:none;}
-  </style>
-    <link rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+     <style>
+        .mySlides {display:none;}
+     </style>
+      <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Megrim&family=Pompiere&display=swap" rel="stylesheet">
@@ -16,74 +16,119 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>master mind anime</title>
+    
   </head>
   <body>
    <!-- starting of navbar -->
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Master Minds Anime</a>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="Api/anime.html" class="links">Anime</a></li>
-              <li><a href="#about">about us</a></li>
-            </ul>
 
-      </nav>
-        </div>
-        </div>
-      </nav>
+   <section class="navigation">
+    <div class="nav-container">
+      <div class="brand">
+        <a href="#!">MASTER MINDS ANIME</a>
+      </div>
+      <nav>
+        <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
+        <ul class="nav-list">
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="anime.html">Anime</a>
+          </li>
+          <li>
+            <div class="theme">
+              <button class="light-mode-button" aria-label="Toggle Light Mode" onclick="toggle_light_mode()">
+                <span></span>
+                <span></span>
+              </button>
+              <li><h4>Toggle For Light-Dark Mode</h4></li>
+            </div>
+          </li>
+        </nav>
+      
+    </div>
+ 
+  </section>
+  
       <!-- anime images -->
+      
       <div id="parent">
       <div class="w3-content w3-display-container">
-      <img src="law.jpg" alt="" class="mySlides">
-      <img src="Jujutsu-Kaisen-Wallpaper.jpg" alt="" class="mySlides">
-      <img src="naruto hd.jpg" alt="" class="mySlides">
-      <img src="one p man hd.jpg" class="mySlides">
-      <img src="one piece.jpg" alt="" class="mySlides">
+      <img src="/Images//law.jpg" alt="" class="mySlides">
+      <img src="/Images//Jujutsu-Kaisen-Wallpaper.jpg" alt="" class="mySlides">
+      <img src="/Images//naruto hd.jpg" alt="" class="mySlides">
+      <img src="/Images//one p man hd.jpg" class="mySlides">
+      <img src="/Images//one piece.jpg" alt="" class="mySlides">
+      <img src="/Images//goku.jpg" alt="" class="mySlides">
+      <img src="/Images//Demon-slayer.webp" alt="" class="mySlides">
       <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
       <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-    </div>
-    </div>
+      </div>
+      </div>
+      
   <!-- links -->
-  <br><br>
+
+    <br><br>
     <div class="links" id="links">
-   <H1>WATCH ANIME FOR FREE!</H1>
-   <img src="master minds.jpg" id="logo"><BR>
-   <div class="frame">
-    <a href="Api/anime.html">
-      <button class="custom-btn btn-9">Watch anime for free !!</button>
-      </a>
-  
-  <br><br><br><br>
-  <script src="script.js"></script>
-  <img src="law.jpg">
-  <a href="Api/anime.html">
-  <button class="custom-btn btn-15">watch death note</button></a>
-  <img src="one piece.jpg">
-  <a href="Api/anime.html">
-  <button class="custom-btn btn-15">watch one piece</button></a>
-  <img src="one p man hd.jpg">
-  <a href="Api/anime.html">
-  <button class="custom-btn btn-15">watch one punch man</button></a>
-  <img src="naruto hd.jpg">
-  <a href="Api/anime.html">
-  <button class="custom-btn btn-15">watch naruto</button></a>
-  <img src="Jujutsu-Kaisen-Wallpaper.jpg">
-  <a href="Api/anime.html">
-  <button class="custom-btn btn-15">watch Jujutsu-Kaisen</button></a>
-</div>
-</div>
-  <div id="about">
-    <p id="desc">Master Minds anime is free anime provider.It is a heaven for Millions of anime lover.It is a very easy to use website for everyone. This website is in development mode <strong>So, This website has some bugs I know :) Sorry for that By the Way Do you like the website Please reply  <br><br>  ....By Vaibhav</strong></p>
-  </div>
+    <H1>WATCH ANIME FOR FREE!</H1>
+    <img src="/Images/master minds.jpg" id="logo"><BR>
+    <div class="frame">
+     <a href="anime.html"><button class="custom-btn btn-9">Watch anime for free !!</button></a>
+     <br>
+     <br>
+     <br>
+     <br>
+
+<script src="script.js"></script>
+
+<!-- DEATH NOTE -->
+            <img src="/Images/law.jpg" class="photo-brdr">
+            <a href="anime.html">
+            <button class="custom-btn btn-15">Watch death note</button></a>
+<!-- ONE PIECE -->
+            <img src="/Images/one piece.jpg" class="photo-brdr">
+            <a href="anime.html">
+            <button class="custom-btn btn-15">Watch one piece</button></a>
+<!-- ONE PUNCH MAN -->
+            <img src="/Images/one p man hd.jpg" class="photo-brdr">
+            <a href="anime.html">
+            <button class="custom-btn btn-15">Watch one punch man</button></a>
+<!-- NARUTO -->
+            <img src="/Images/naruto hd.jpg" class="photo-brdr">
+            <a href="anime.html">
+            <button class="custom-btn btn-15">Watch naruto</button></a>
+<!-- Jujutsu-Kaisen-->
+            <img src="/Images/Jujutsu-Kaisen-Wallpaper.jpg" class="photo-brdr">
+            <a href="anime.html">
+            <button class="custom-btn btn-15">Watch Jujutsu-Kaisen</button></a>
+<!-- Dragon ball-z -->
+            <img src="/Images/goku.jpg" class="photo-brdr">
+            <a href="anime.html">
+            <button class="custom-btn btn-15">Watch Dragon Ball-Z</button></a>
+<!-- Demon Slayer-->
+            <img src="/Images/Demon-slayer.webp" class="photo-brdr">
+            <a href="anime.html">
+            <button class="custom-btn btn-15">Watch Demon Slayer</button></a>  
+<!-- THE END!!!!! -->
+
+    </div>
+      </div>
+        <div id="about">
+         <p id="desc">Master Minds anime is free anime provider.
+          It is a heaven for Millions of anime lover.
+          It is a very easy to use website for everyone.
+          This website is in development mode <strong>
+          So, This website has some bugs I know :)
+          Sorry for that By the Way Do you like the website Please reply  
+          <br>
+          <br>
+          ....By Vaibhav</strong>
+        </p>
+   </div>
   </body>
 </html>
